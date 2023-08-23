@@ -6,7 +6,7 @@ import binarySearch from "../binarySearch.js";
 var array = [];
 
 beforeAll(() => {
-     array = binarySearch.initialize(10);
+    array = binarySearch.initialize(10);
 });
 
 describe('Verificando a incialização', () => {

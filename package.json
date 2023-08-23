@@ -5,7 +5,7 @@
   "main": "./src/example/db/main.js",
   "type": "module",
   "scripts": {
-    "test": "jest --verbose ./test-directory",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest jest --verbose ./src/example",
     "start": "node src/example/db/main.js"
   },
   "jest": {
