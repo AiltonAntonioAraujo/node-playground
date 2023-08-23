@@ -1,4 +1,4 @@
-import { bubbleSort } from "./bubbleSort.mjs";
+import { bubbleSort } from "./bubbleSort.js";
 //Array especificado
 var arr = [7,3,1,50,2];
 
