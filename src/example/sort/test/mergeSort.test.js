@@ -11,7 +11,7 @@ beforeAll(() => {
 
 describe('Verificando o array após ordenação:', () => {
     test('Array contem de 8 elementos', () => {
-        expect(array.length > 0 && array.length == 8).toBe(true);
+        expect(array).toHaveLength(8);
     });
     test('O array está em ordem crescente', () => {
         expect(array).toEqual(esperado);
