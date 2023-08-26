@@ -41,3 +41,24 @@ var mult = (x,y) => {
 
 console.log(multiplicar(10,8));
 console.log(mult(2,5));
+
+
+// parce string to object 
+var str = '{"nome":"Ailton", "idade": 40, "filhos":["Arthur", "Miguel"]}';
+var obj = JSON.parse(str);
+console.log(obj);
+
+// converte object to JSON file
+
+class Casa{
+    constructor(nome, tipo, endereco, medidas){
+        this.nome = nome,
+        this.tipo = tipo,
+        this.endereco = endereco,
+        this.medidas = medidas
+    }
+}
+ var objCasa = new Casa("VlRosa", "Terrea", "Cap. Alvaro Guimaraes", [12,33,162]);
+ 
+ console.log(JSON.stringify(objCasa));
+ 
